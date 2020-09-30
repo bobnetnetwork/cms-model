@@ -1,5 +1,5 @@
 {
-  "name": "cms-model",
+  "name": "@bobnetnetwork/cms-model",
   "version": "0.0.1",
   "scripts": {
     "ng": "ng",
@@ -43,5 +43,5 @@
     "tslint": "~6.1.0",
     "typescript": "~3.9.5"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com/bobnetnetwork" }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" }
 }
