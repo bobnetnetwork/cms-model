@@ -17,12 +17,12 @@ export declare class Article {
 }
 
 export class ArticlesMessage {
-  content: Article[];
-  message: string;
+  content?: Article[];
+  message?: string;
 }
 
 export class ArticleMessage {
-  content: Article;
-  message: string;
-  success: boolean;
+  content?: Article;
+  message?: string;
+  success?: boolean;
 }

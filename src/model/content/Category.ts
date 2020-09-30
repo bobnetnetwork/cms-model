@@ -12,11 +12,11 @@ export class Category {
 }
 
 export class CategoriesMessage {
-  content: Category[];
-  message: string;
+  content?: Category[];
+  message?: string;
 }
 
 export class CategoryMessage {
-  content: Category;
-  message: string;
+  content?: Category;
+  message?: string;
 }
