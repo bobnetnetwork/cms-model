@@ -19,7 +19,11 @@ jobs:
           scope: '@bobnetnetwork'
       - name: Authenticate with GitHub package registry
         run: echo "//npm.pkg.github.com/:_authToken=${{ secrets.GITHUB }}" > ~/.npmrc
+      - name: Install TypeScrypt
+        run: npm install typescript --save
       - run: npm install
+      - name: Build
+        run: tsc
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB }}
