@@ -3,7 +3,7 @@ import { Category } from './Category';
 import { Tag } from './Tag';
 import { User } from '../user/User';
 
-export class Article {
+export declare class Article {
   title?: string;
   headline?: string;
   content?: string;
