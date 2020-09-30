@@ -43,5 +43,5 @@
     "tslint": "~6.1.0",
     "typescript": "~3.9.5"
   },
-  "publishConfig": { "registry": "https://npm.pkg.github.com" }
+  "publishConfig": { "registry": "https://npm.pkg.github.com/bobnetnetwork" }
 }
