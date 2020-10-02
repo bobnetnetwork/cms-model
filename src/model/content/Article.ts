@@ -1,9 +1,9 @@
 import { Observable } from 'rxjs';
 import { Category } from './Category';
 import { Tag } from './Tag';
-import { User } from '../user/User';
+import { User } from '../..';
 
-export declare class Article {
+export class Article {
   title?: string;
   headline?: string;
   content?: string;
