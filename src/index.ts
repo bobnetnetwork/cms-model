@@ -12,3 +12,5 @@ export { Tag } from './model/content/Tag';
 //user
 export { User } from './model/user/User';
 export { Role } from './model/user/Role';
+
+export { HealthCheck } from './model/HealthCheck';
