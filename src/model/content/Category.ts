@@ -6,7 +6,7 @@ export class Category {
   featuredImage?: string;
   slug?: string;
   addedAt?: Date;
-  subCategories?: Category[];
+  parent?: Category;
   articles?: Article[];
 }
 
