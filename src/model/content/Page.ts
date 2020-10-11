@@ -1,4 +1,3 @@
-import { Observable } from 'rxjs';
 import { User } from '../..';
 
 export class Page {
@@ -6,7 +5,7 @@ export class Page {
   headline?: string;
   content?: string;
   featuredImage?: string;
-  author?: Observable<User>;
+  author?: User;
   slug?: string;
   addedAt?: Date;
 }

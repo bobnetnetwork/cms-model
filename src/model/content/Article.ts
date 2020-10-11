@@ -1,4 +1,3 @@
-import { Observable } from 'rxjs';
 import { Category } from './Category';
 import { Tag } from './Tag';
 import { User } from '../..';
@@ -8,10 +7,10 @@ export class Article {
   headline?: string;
   content?: string;
   featuredImage?: string;
-  author?: Observable<User>;
+  author?: User;
   slug?: string;
   addedAt?: Date;
-  tags?: Observable<Tag>;
+  tags?: Tag[];
   categories?: Category[];
   status?: string;
 }

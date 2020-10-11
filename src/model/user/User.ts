@@ -1,4 +1,3 @@
-import { Observable } from 'rxjs';
 import { Role } from './Role';
 
 export class User {
@@ -14,5 +13,5 @@ export class User {
   credentialsExpired?: boolean;
   enabled?: boolean;
   registeredAt?: Date;
-  roles?: Observable<Role>;
+  roles?: Role[];
 }

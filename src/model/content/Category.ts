@@ -1,4 +1,3 @@
-import { Observable } from 'rxjs';
 import { Article } from './Article';
 
 export class Category {
@@ -8,7 +7,7 @@ export class Category {
   slug?: string;
   addedAt?: Date;
   parent?: Category;
-  articles?: Observable<Article>;
+  articles?: Article[];
 }
 
 export class CategoriesMessage {
